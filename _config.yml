@@ -17,8 +17,8 @@ title: 基智一点
 email: y2intelligences@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   关于智能基础的一些讨论
-baseurl: "/y2intelligences" # the subpath of your site, e.g. /blog
-url: "https://ftvision.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 icon: /assets/images/icon-512.png
 twitter_username: y2intelligences
 github_username:  ftvision
