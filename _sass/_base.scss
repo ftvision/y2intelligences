@@ -89,10 +89,16 @@ hr {
 }
 
 img {
-  display: flex;
+  display: inline-flex;
   max-width: 100%;
   height: auto;
   margin: 2em auto;
+}
+
+img.raw {
+  flex-direction: row;
+  height: auto;
+  margin: 0;
 }
 
 figure img {

@@ -24,11 +24,29 @@ layout: default
 
 <main class="home" id="main" role="main" aria-label="Content">
 
+   <div class="content-title" style=" margin:0px">
+     <a href="https://podcasts.apple.com/us/podcast/%E5%9F%BA%E6%99%BA%E4%B8%80%E7%82%B9/id1490374590" style="text-decoration: none">
+       <img class="raw" src="/assets/images/Apple_icon.png" alt="listen on Apple Podcasts" width="50px">
+     </a>
+     <a href="https://open.spotify.com/show/4mLqAqnUDZKcbb1znG0GS3"  style="text-decoration: none">
+       <img class="raw"  src="/assets/images/Spotify_icon.png" alt="listen on Spotify" width="50px">
+     </a>
+     <a href="https://castbox.fm/ch/2488407"  style="text-decoration: none">
+       <img class="raw"  src="/assets/images/Castbox_icon.png" alt="listen on CastBox"  width="50px">
+     </a>
+     <a href="https://pca.st/uiorysaz"  style="text-decoration: none">
+       <img class="raw"  src="/assets/images/pocketcast_icon.png" alt="listen on Pocket Cast" width="50px">
+     </a>
+     <a href="https://anchor.fm/y2intelligences"  style="text-decoration: none">
+       <img class="raw"  src="/assets/images/anchor_icon.png" alt="listen on Pocket Cast" width="50px">
+     </a>
+   </div>
+
   <h1 class="content-title divided">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
     {% else %}
-      往期节目一栏
+      往期节目一览
     {% endif %}
   </h1>
 
