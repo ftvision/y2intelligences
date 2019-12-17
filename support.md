@@ -13,4 +13,14 @@ title: 支持与赞助
 
 ### 赞助我们
 
-目前，欢迎打赏我们的微信公众号，嘿嘿。
+如果大家好心想赞助我们，目前可以通过Paypal和支付宝来打赏我们，我们在此表示衷心的感谢。
+
+<div class="content-title" style=" margin:0px">
+<a href="https://paypal.me/planeyang"  style="text-decoration: none">
+  <img class="raw" src="/assets/images/paypal.png" alt="paypal" width="200px">
+</a>
+
+
+<img class="raw" src="/assets/images/alipay.jpg" alt="alipay" width="200px">
+
+</div>
