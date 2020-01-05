@@ -69,3 +69,20 @@
   font-size: .75em;
   margin-bottom: 1em;
 }
+.with-badge {
+    position:relative;
+    padding-top:10px;
+    display:block;
+}
+.notify-badge{
+    font-size: 0.75em;
+    position: absolute;
+    left:10px;
+    top:20px;
+    background: #DB4437;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    color:white;
+    padding:5px 10px;
+    transform: rotate(-45deg);
+}
