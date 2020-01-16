@@ -1,5 +1,5 @@
 ---
-title: "Epsiode 1 作者笔记"
+title: "Episode 1 作者笔记"
 category: note
 layout: post
 publish: false
