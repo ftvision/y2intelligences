@@ -107,9 +107,21 @@ layout: default_new
   <div class="column">
     <div class="new-episode">
       <p class="title">最新一期</p>
-      <p class="title is-5">{{ site.posts[0].title }}</p>
-      <div class="content">
-      {{ site.posts[0].content }}
+      <div class="columns">
+        <div class="column">
+          <p class="title is-5">{{ site.posts[0].title }}</p>
+          <div class="content">
+          {{ site.posts[0].content }}
+          </div>
+        </div>
+        {% if  site.posts[0].cover-art %}
+        <div class="column is-one-third">
+        <figure class="image"
+                style="width:100%;">
+          <img src={{ site.posts[0].cover-art }} alt="cover-art">
+        </figure>
+        </div>
+        {% endif %}
       </div>
     </div>
     <div class="history">

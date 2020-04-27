@@ -72,10 +72,22 @@ layout: default_new
   </div>
   <!-- Main Context -->
   <div class="column">
-    <a href="/"><span class="icon"><i class="fas fa-home"></span></i>回到首页</a>
-    <h1 class="title is-2"> {{page.title}}</h1>
-    <div class="content">
-    {{ content }}
-    </div>
+    <div class="columns">
+      <div class="column">
+        <a href="/"><span class="icon"><i class="fas fa-home"></span></i>回到首页</a>
+          <h1 class="title is-2"> {{page.title}}</h1>
+          <div class="content">
+          {{ content }}
+          </div>
+      </div>
+      <div class="column is-one-third">
+        {% if  site.posts[0].cover-art %}
+        <figure class="image"
+                style="width:100%;">
+          <img src={{ site.posts[0].cover-art }} alt="cover-art">
+        </figure>
+        </div>
+        {% endif %}
+      </div>
   </div>
 </div>
