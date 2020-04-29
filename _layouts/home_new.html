@@ -103,19 +103,32 @@ layout: default_new
       <p class="title">最新一期</p>
       <div class="columns">
         <div class="column">
-          <p class="title is-5">{{ site.posts[0].title }}</p>
+          <p class="title is-5"><a href="{{site.posts[0].url}}">{{ site.posts[0].title }}</a></p>
           <div class="content">
           {{ site.posts[0].content }}
           </div>
+          {% if site.posts[0].reference %}
+          <div class="message">
+            <div class="message-body">
+            <p class="title is-6 is-white">本期文献</p>
+            <ul>
+            {% for r in site.posts[0].reference %}
+                <li><p class="content is-normal"><span class="icon"><i class="fas fa-copy"></i></span> {{ r }}</p></li>
+            {% endfor %}
+            </ul>
+            </div>
+          </div>
+          {% endif %}
         </div>
-        {% if  site.posts[0].cover-art %}
+
         <div class="column is-one-third">
+        {% if  site.posts[0].cover-art %}
         <figure class="image"
                 style="width:100%;">
           <img src={{ site.posts[0].cover-art }} alt="cover-art">
         </figure>
-        </div>
         {% endif %}
+        </div>
       </div>
     </div>
     <div class="history">

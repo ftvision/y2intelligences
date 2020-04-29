@@ -81,13 +81,27 @@ layout: default_new
           </div>
       </div>
       <div class="column is-one-third">
-        {% if  site.posts[0].cover-art %}
-        <figure class="image"
-                style="width:100%;">
-          <img src={{ site.posts[0].cover-art }} alt="cover-art">
-        </figure>
+        {% if page.cover-art %}
+        <div>
+          <figure class="image"
+                  style="width:100%;">
+            <img src={{ site.posts[0].cover-art }} alt="cover-art">
+          </figure>
         </div>
         {% endif %}
+        <div>
+        {% if page.reference %}
+          <p class="title is-6">本期文献</p>
+          <ul>
+          {% for r in page.reference %}
+              <li><p class="content is-small"><span class="icon"><i class="fas fa-copy"></i></span> {{ r }}</p></li>
+              <hr>
+          {% endfor %}
+          </ul>
+        {% endif %}
+        </div>
       </div>
+
+  </div>
   </div>
 </div>
