@@ -107,18 +107,6 @@ layout: default_new
           <div class="content">
           {{ site.posts[0].content }}
           </div>
-          {% if site.posts[0].reference %}
-          <div class="message">
-            <div class="message-body">
-            <p class="title is-6 is-white">本期文献</p>
-            <ul>
-            {% for r in site.posts[0].reference %}
-                <li><p class="content is-normal"><span class="icon"><i class="fas fa-copy"></i></span> {{ r }}</p></li>
-            {% endfor %}
-            </ul>
-            </div>
-          </div>
-          {% endif %}
         </div>
 
         <div class="column is-one-third">
@@ -129,6 +117,20 @@ layout: default_new
         </figure>
         {% endif %}
         </div>
+      </div>
+      <div>
+        {% if site.posts[0].reference %}
+        <div class="message">
+          <div class="message-body">
+          <p class="title is-6 is-white">本期文献</p>
+          <ul>
+          {% for r in site.posts[0].reference %}
+              <li><p class="content is-normal"><span class="icon"><i class="fas fa-copy"></i></span> {{ r }}</p></li>
+          {% endfor %}
+          </ul>
+          </div>
+        </div>
+        {% endif %}
       </div>
     </div>
     <div class="history">
