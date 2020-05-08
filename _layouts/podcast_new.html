@@ -85,7 +85,7 @@ layout: default_new
         <div>
           <figure class="image"
                   style="width:100%;">
-            <img src={{ site.posts[0].cover-art }} alt="cover-art">
+            <img src={{ page.cover-art }} alt="cover-art">
           </figure>
         </div>
         {% endif %}
@@ -95,7 +95,6 @@ layout: default_new
           <ul>
           {% for r in page.reference %}
               <li><p class="content is-small"><span class="icon"><i class="fas fa-copy"></i></span> {{ r }}</p></li>
-              <hr>
           {% endfor %}
           </ul>
         {% endif %}
