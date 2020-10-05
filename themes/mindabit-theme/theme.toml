@@ -1,0 +1,26 @@
+name = "Mind a bit"
+license = "MIT"
+description = "A hugo theme for the podcast Mind A Bit."
+tags = [
+  "blog",
+  "minimal",
+  "minimalist",
+  "responsive",
+  "rss"
+]
+features = [
+  "accessibility",
+  "cover-image",
+  "favicon",
+  "multilingual",
+  "pagination",
+  "shortcodes",
+  "single-column",
+  "social-menu",
+  "syntax-highlighting",
+]
+min_version = 0.28
+
+[author]
+  name = "Feitong Yang"
+  homepage = "https://ftvision.github.io"
