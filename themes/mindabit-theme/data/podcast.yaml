@@ -1,0 +1,32 @@
+apple:
+  name: "Apple Podcasts"
+  icon: "/images/Apple_icon.png"
+  url: https://podcasts.apple.com/us/podcast/%E5%9F%BA%E6%99%BA%E4%B8%80%E7%82%B9/id1490374590
+google:
+  name: "Google Podcasts"
+  icon: "/images/Google_icon.png"
+  url: https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMTE5NTM1MC9wb2RjYXN0L3Jzcw==
+spotify:
+  name: "Spotify"
+  icon: "/images/Spotify_icon.png"
+  url: "https://open.spotify.com/show/4mLqAqnUDZKcbb1znG0GS3"
+castbox:
+  name: "CastBox"
+  icon: "/images/Castbox_icon.png"
+  url: "https://overcast.fm/itunes1490374590"
+overcast:
+  name: "OverCast"
+  icon: "/images/Overcast_icon.png"
+  url: "https://overcast.fm/itunes1490374590"
+pocketcast:
+  name: "Pocket Cast"
+  icon: "/images/pocketcast_icon.png"
+  url: "https://pca.st/uiorysaz"
+netbase:
+  name: "网易云音乐"
+  icon: "/images/netbase_icon.png"
+  url: "https://music.163.com/#/djradio?id=794383554"
+ximalaya:
+  name: "喜马拉雅"
+  icon: "/images/ximalaya_icon.png"
+  url: "https://www.ximalaya.com/keji/32102200/"

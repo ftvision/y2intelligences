@@ -1,0 +1,9 @@
+<div style="display:flex;align-items: center; justify-content: center;">
+  {{ range $key, $value := $.Site.Data.podcast }}
+  <figure class="image is-32x32" style="margin-right:5px;">
+    <a href={{ $value.url }} style="text-decoration: none">
+      <img src={{ $value.icon }} alt="listen on {{ $value.name }}">
+    </a>
+  </figure>
+  {{ end }}
+</div>
