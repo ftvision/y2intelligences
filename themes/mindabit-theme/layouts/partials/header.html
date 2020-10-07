@@ -1,53 +1,17 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <!-- Define character set -->
-  <meta charset="utf-8">
-
-  <!-- Mobile optimization -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Define Page title -->
-  <title>
-    {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }}
-  </title>
-
-  <!-- Define Site Description -->
-  {{ if .Site.Params.description }}
-  <meta name="description" content="{{ .Site.Params.description }}}">{% endif %}
-  {{ end }}
-
-  <!-- Define RSS Feed -->
-  {{ if .Site.Params.rss.enable }}
-  <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-  {{ end }}
-
-  <!-- Google Analytics -->
-  {{ partial "google-analytics" . }}
-
-  <!-- Base CSS: Bulma -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-  <link rel="stylesheet" href="{{ `css/style.css` | relURL }}"/>
-
-  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-
-</head>
-
-<body>
-
-  <div class="container">
-    <nav class="level"  style="margin:2em 2em 2em 2em">
-      <div class="level-left">
-        <div class="level-item has-text-centered">
-          <a href="/" style="text-decoration: none;">
-            <p class="title">基智一点 | Mind a Bit</p>
-            <p class="heading">created by Y2Intelligences</p>
-          </a>
-        </div>
+<div class="container">
+  <nav class="level" style="padding:3em">
+    <div class="level-left">
+      <div class="level-item has-text-centered">
+        <a href="/" style="text-decoration: none;">
+          <p class="title">基智一点 | Mind a Bit</p>
+          <p class="heading">created by Y2Intelligences</p>
+        </a>
       </div>
-      <div class="level-right">
-        {{ partial "podcast-distribution" .}}
-      </div>
-    </nav>
-  </div>
+    </div>
+    <div class="level-right">
+      {{ partial "podcast-distribution" .}}
+    </div>
+  </nav>
+</div>
+
+<hr>

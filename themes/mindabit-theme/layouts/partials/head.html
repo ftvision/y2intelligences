@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Define character set -->
+  <meta charset="utf-8">
+
+  <!-- Mobile optimization -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Define Page title -->
+  <title>
+    {{ if .IsHome }} {{ .Site.Title }} {{ else }} {{ .Title }} {{ end }}
+  </title>
+
+  <!-- Define Site Description -->
+  {{ if .Site.Params.description }}
+  <meta name="description" content="{{ .Site.Params.description }}}">{% endif %}
+  {{ end }}
+
+  <!-- Define RSS Feed -->
+  {{ if .Site.Params.rss.enable }}
+  <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ end }}
+
+  <!-- Google Analytics -->
+  {{ partial "google-analytics" . }}
+
+  <!-- Base CSS: Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="stylesheet" href="{{ `css/style.css` | relURL }}"/>
+
+  <!-- Font -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+</head>
+
+<body>
