@@ -8,6 +8,10 @@ h1 h2 h3 h4 h5 h6 {
   font-family: serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   /*font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif; */
   font-size: 18px;
@@ -51,6 +55,9 @@ div.date {
   color: darkgray;
 }
 
-.sidebar {
+.sidebar-left {
   padding: 2em;
+  position: absolute;
+  left: 0px;
 }
+

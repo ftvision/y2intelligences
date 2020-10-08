@@ -14,9 +14,8 @@ PodcastId:
   spotify: ""
   netbase: ""
   ximalaya: ""
-  netbase-embed: ""
-  anchor-embed: ""
-cover-art: ""
+  anchor_embed: ""
+cover: ""
 summary: "Episode Summary"
 ---
 
@@ -25,13 +24,6 @@ summary: "Episode Summary"
 ### 嘉宾
 
 [Name]: [Role]
-
-### 支持我们
-
-欢迎大家在Patreon和爱发电上支持我们的节目。
-
-- [Patreon(patreon/jzyd)](https://www.patreon.com/jzyd)
-- [爱发电(@jzyd-cn)](https://afdian.net/@jzyd-cn)
 
 ### 内容提要
 
