@@ -3,9 +3,13 @@ table {
   font-size: 100%;
 }
 /* end reset CSS */
+body {
+  line-height: 1.5;
+  font-family:  Times, 'Times New Roman', STFangSong, STSong, SimSun, serif;
+}
 
-h1 h2 h3 h4 h5 h6 {
-  font-family: serif;
+h1, h2, h3 {
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 a {

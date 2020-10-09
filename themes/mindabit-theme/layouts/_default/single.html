@@ -28,7 +28,7 @@
       <div class="Box Box--condensed">
         <div class="Box-header">
           <h3 class="Box-title">
-            Reference
+            参考文献
           </h3>
         </div>
         <ul>
@@ -37,6 +37,13 @@
             {{ $ref }}
           </li>
           {{ end }}
+          {{ if .Params.extra_reference }}
+          {{ range $ref := .Params.extra_reference }}
+          <li class="Box-row text-gray-light">
+            {{ $ref }}
+          </li>
+          {{ end }}
+          {{ end }}
         </ul>
       </div>
     </div>
@@ -44,6 +51,20 @@
     <div>
       {{ .Content }}
     </div>
+    <!-- Timeline -->
+    <h3>主要内容</h3>
+
+    {{ range $timestamp := .Params.timeline }}
+    <div class="TimelineItem">
+      <div class="TimelineItem-badge">
+        <i class="fas fa-clock"></i>
+      </div>
+      <div class="TimelineItem-body">
+        <storng>{{ $timestamp.time }}</storng>
+        <p>{{ $timestamp.content }}</p>
+      </div>
+    </div>
+    {{ end }}
   </div>
 
   <div class="col-2 p-2 ">
@@ -51,9 +72,11 @@
     <div>
       <p>本期嘉宾：</p>
       {{ range $guest:= .Params.guest }}
-      <small><p>
-      <i class="fas fa-user-alt"></i> {{ $guest.name}} <br> {{ $guest.role }}
-      </p></small>
+      <small>
+        <p>
+          <i class="fas fa-user-alt"></i> {{ $guest.name}} <br> {{ $guest.role }}
+        </p>
+      </small>
       {{ end}}
     </div>
   </div>
