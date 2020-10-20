@@ -12,6 +12,13 @@ h1, h2, h3 {
   font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
+.text-serif {
+  font-family:  Times, 'Times New Roman', STFangSong, STSong, SimSun, serif;
+}
+.text-sans-serif {
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, STHeiti, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
 a {
   text-decoration: none;
 }

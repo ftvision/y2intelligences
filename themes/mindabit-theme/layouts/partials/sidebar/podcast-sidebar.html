@@ -1,11 +1,14 @@
 <nav class="SideNav col-2">
+  <img width="100%" src="/images/episode-cover/{{ .Params.cover }}" alt="cover-art">
   <div class="SideNav-item">
-    <p class="title is-5">全网收听本期节目</p>
-    {{ partial "podcast-links/anchor-embed" .}}
-  </div>
-  <div class="SideNav-item">
-    <p class="title is-5">国内收听本期节目</p>
-    {{ partial "podcast-links/netbase-embed" .}}
+    <p class="title is-5">本期嘉宾</p>
+    {{ range $guest:= .Params.guest }}
+    <small>
+      <p>
+        <i class="fas fa-user-alt"></i> {{ $guest.name}} <br> {{ $guest.role }}
+      </p>
+    </small>
+    {{ end}}
   </div>
   <div class="SideNav-item">
     <p class="title is-5">收听全部节目</p>

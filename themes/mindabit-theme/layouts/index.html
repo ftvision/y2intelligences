@@ -11,51 +11,79 @@
   <div class="col-6">
     <!-- Latest Podcast-->
     <div class="box-shadow-large ml-2 p-3 container-lg clearfix">
-    {{ range first 1 .Site.RegularPages }}
-    <div class="d-flex">
-      <div class="px-2 col-8">
-        <h3>最新一期播客</h3>
-        <h1 class="title"><a href="{{.Permalink }}">{{ .Title }}</a></h1>
-        <p> {{ .Content }}</p>
-        <div class="py-4">
-          <div class="Box Box--condensed">
-            <div class="Box-header">
-              <h3 class="Box-title">
-                本期讨论的主要文献
-              </h3>
+      {{ range first 1 .Site.RegularPages }}
+      <div class="d-flex">
+        <div class="px-2 col-8">
+          <h3>最新一期播客</h3>
+          <h1 class="title"><a href="{{.Permalink }}">{{ .Title }}</a></h1>
+          <p> {{ .Content }}</p>
+          <div class="py-4">
+            <div class="Box Box--condensed">
+              <div class="Box-header">
+                <h3 class="Box-title">
+                  本期讨论的主要文献
+                </h3>
+              </div>
+              <ul>
+                {{ range $ref := .Params.reference }}
+                <li class="Box-row">
+                  {{ $ref }}
+                </li>
+                {{ end }}
+              </ul>
             </div>
-            <ul>
-              {{ range $ref := .Params.reference }}
-              <li class="Box-row">
-                {{ $ref }}
-              </li>
-              {{ end }}
-            </ul>
           </div>
         </div>
+        <div class="col-4">
+          <img class="avatar" , width="100%" src="/images/episode-cover/{{ .Params.cover }}" alt="cover-art">
+        </div>
       </div>
-      <div class="col-4">
-        <img class="avatar", width="100%" src="/images/episode-cover/{{ .Params.cover }}" alt="cover-art">
-      </div>
-    </div>
-    {{ end}}
+      {{ end}}
     </div>
 
     <!-- Podcast Table-->
-    <div class="p-2">
+    <div class="pl-2 mt-2">
       <div class="Box">
+        <div class="Box-header d-flex flex-items-center">
+          <h3 class="Box-title overflow-hidden flex-auto">
+            节目一览
+          </h3>
+        </div>
         {{ range where .Site.RegularPages "Section" "podcast" }}
         <div class="Box-row d-flex flex-items-center">
           <div class="flex-auto">
             <div class="text-small text-gray-light">
               <span class="mr-2">
-              {{ .Params.release_schedule}}
+                {{ .Params.release_schedule}}
               </span>
               {{ range $d:=.Params.discipline}}
-              <span class="Label Label mr-2 Label--green"  > {{ $d }}</span>
+              <span class="IssueLabel bg-blue text-white mr-1 text-sans-serif"> {{ $d }}</span>
               {{ end }}
             </div>
-            <h3 class="text-gray-dark"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}"> {{ .Title }}</a></h3>
+            <p class="text-gray-dark"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}"> {{ .Title }}</a></p>
+          </div>
+
+          <div>
+            <div>
+              <span class="text-sans-serif"> 国内收听：</span>
+              <a href="https://music.163.com/#/program?id={{ .Params.PodcastId.netbase }}"
+                style="text-decoration: none">
+                <img src="/images/netbase_icon.png" alt="listen on Netbase" class="avatar avatar-3 mr-2">
+              </a>
+              <a href="https://www.ximalaya.com/keji/{{ .Params.PodcastId.ximalaya }}" style="text-decoration: none">
+                <img src="/images/ximalaya_icon.png" alt="listen on Ximalaya" class="avatar avatar-3 mr-2">
+              </a>
+            </div>
+            <div>
+              <span class="text-sans-serif"> 国外收听：</span>
+              <a href="https://podcasts.apple.com/us/podcast/{{ .Params.PodcastId.apple }}"
+                style="text-decoration: none">
+                <img src="/images/Apple_icon.png" alt="listen on Apple" class="avatar avatar-3 mr-2">
+              </a>
+              <a href="https://open.spotify.com/episode/{{ .Params.PodcastId.spotify }}" style="text-decoration: none">
+                <img src="/images/Spotify_icon.png" alt="listen on Spotify" class="avatar avatar-3 mr-2">
+              </a>
+            </div>
           </div>
         </div>
         {{ end }}
