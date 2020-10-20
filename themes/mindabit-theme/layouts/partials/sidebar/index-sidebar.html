@@ -1,66 +1,65 @@
-<nav class="SideNav border" style="max-width: 360px">
-  <a class="SideNav-item" href="#url">Account</a>
-  <a class="SideNav-item" href="#url" aria-current="page">Profile</a>
-  <a class="SideNav-item" href="#url">Emails</a>
-  <a class="SideNav-item" href="#url">Notifications</a>
-</nav>
+<nav class="SideNav col-2">
+  <div class="SideNav-item">
+
 <figure class="image">
-  <img src="images/final-cover-1000.png">
+  <img width="100%" src="images/final-cover-1000.png">
 </figure>
-<hr>
+    <p>基智一点是一款讨论智力基本原理的半月更播客。在每一期节目中，两位主播会与来自神经科学、心理学、计算机科学或哲学等领域的嘉宾共同探讨一个与智能相关的主题。我们扎根于原始文献，致力于成为中文语境下最好的关于脑、心智和机器智能的播客节目。</p>
+  </div>
+  <div class="SideNav-item">
+    <h3 class="title is-5">联系我们</h3>
+    <ul class="list-style-none">
+      <li>Email: y2intelligences@gmail.com</li>
+      <li>公众号: 午后的笛卡尔</li>
+    </ul>
+  </div>
+  <div class="SideNav-item">
+    <h3 class="title is-5">收听节目</h3>
+    {{ partial "podcast-distribution" .}}
+  </div>
+  <div class="SideNav-item">
+    <h3 class="title is-5">赞助我们</h3>
+    {{ partial "support-banner" .}}
+  </div>
+  <div class="SideNav-item">
+    <h3 class="title is-5">相关推荐</h3>
+    <p>
+      我们在制作播客的同时也会听很多播客。他们以不同的形式介绍和传播了神经科学、认知科学、人工智能领域内不同的知识和信息，希望大家也会喜欢。我们也欢迎大家发送邮件给我们，推荐其他的优秀的播客节目，我们也会在此更新。
+    </p>
 
-<p>
-  基智一点是一款讨论智力基本原理的半月更播客。在每一期节目中，两位主播会与来自神经科学、心理学、计算机科学或哲学等领域的嘉宾共同探讨一个与智能相关的主题。我们扎根于原始文献，致力于成为中文语境下最好的关于脑、心智和机器智能的播客节目。
-</p>
-<hr>
+    <div >
+      <ul class="list-style-none">
+        <li>
+          <a href="https://partiallyexaminedlife.com/">
+            <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+            Partially Examined Life</a></li>
+        <li><a href="https://lexfridman.com/ai/">
+          <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          Artificial Intelligence Podcast by Lex Fridman</a></li>
+        <li><a href="https://braininspired.co/">
+          <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          Brain Inspired</a></li>
+        <li><a href="http://unsupervisedthinkingpodcast.blogspot.com/">
+          <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          Unsupervised Thinking</a></li>
+        <li><a href="https://brainpodcast.com/">
+          <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          Brain Matter</a></li>
+        <li><a href="https://neuromancing.fireside.fm/">
+          <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          神经漫游</a></li>
+        <li>
+          <a href="https://www.ximalaya.com/yule/30318983/"><span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+          锵锵脑科学第一季</a>
+        </li>
+        <li>
+          <a href="https://www.ximalaya.com/diantai/35795988/"><span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
+            锵锵脑科学第二季</a>
+        </li>
+      </ul>
+    </div>
 
-<p class="title is-5">收听节目</p>
-{{ partial "podcast-distribution" .}}
-<hr>
+  </div>
+</nav>
 
-<p class="title is-5">赞助我们</p>
-{{ partial "support-banner" .}}
-<hr>
 
-<p class="title is-5">联系我们</p>
-<ul>
-  <li>Email: y2intelligences@gmail.com</li>
-  <li>公众号: 午后的笛卡尔</li>
-</ul>
-<hr>
-
-<p class="title is-5">相关推荐</p>
-<p>
-  我们在制作播客的同时也会听很多播客。他们以不同的形式介绍和传播了神经科学、认知科学、人工智能领域内不同的知识和信息，希望大家也会喜欢。我们也欢迎大家发送邮件给我们，推荐其他的优秀的播客节目，我们也会在此更新。
-</p>
-<div class="menu">
-  <ul class="menu-list">
-    <li>
-      <a href="https://partiallyexaminedlife.com/">
-        <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-        Partially Examined Life</a></li>
-    <li><a href="https://lexfridman.com/ai/">
-      <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      Artificial Intelligence Podcast by Lex Fridman</a></li>
-    <li><a href="https://braininspired.co/">
-      <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      Brain Inspired</a></li>
-    <li><a href="http://unsupervisedthinkingpodcast.blogspot.com/">
-      <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      Unsupervised Thinking</a></li>
-    <li><a href="https://brainpodcast.com/">
-      <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      Brain Matter</a></li>
-    <li><a href="https://neuromancing.fireside.fm/">
-      <span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      神经漫游</a></li>
-    <li>
-      <a href="https://www.ximalaya.com/yule/30318983/"><span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-      锵锵脑科学第一季</a>
-    </li>
-    <li>
-      <a href="https://www.ximalaya.com/diantai/35795988/"><span class="icon"><i class="fas fa-arrow-alt-circle-right"></i></span>
-        锵锵脑科学第二季</a>
-    </li>
-  </ul>
-</div>

@@ -3,36 +3,66 @@
 <!-- Header -->
 {{ partial "header" . }}
 
-<div class="container">
-  <div class="columns">
-    <div class="column is-one-quarter sidebar">
-      <!-- Podcast SideBar -->
-      {{ partial "sidebar/index-sidebar" . }}
-    </div>
-    <div class="column" style="padding:2em">
-      <div class="content">
-        <!-- Latest Page-->
-        {{ range first 1 .Site.RegularPages }}
-          <p class="title"><a href="{{.Permalink }}">{{ .Title }}</a></p>
-          <p> {{ .Params.summary }}</p>
-          <div class="message">
-            <div class="message-body">
-            <p class="title is-6 is-white">本期文献</p>
-            <ul>
-            {{ range $ref := .Params.reference }}
-                <li>
-                  <p class="content is-normal">
-                    <span class="icon"><i class="fas fa-copy"></i></span> {{ $ref }}
-                  </p>
-                </li>
-            {{ end }}
-            </ul>
-            </div>
-          </div>
+<div class="d-flex flex-justify-center">
+  <!-- Podcast SideBar -->
+  {{ partial "sidebar/index-sidebar" . }}
 
-        {{ end }}
+  <!-- Main Content-->
+  <div class="col-6">
+    <!-- Latest Podcast-->
+    <div class="box-shadow-large ml-2 p-3 container-lg clearfix">
+    {{ range first 1 .Site.RegularPages }}
+    <div class="d-flex">
+      <div class="px-2 col-8">
+        <h3>最新一期播客</h3>
+        <h1 class="title"><a href="{{.Permalink }}">{{ .Title }}</a></h1>
+        <p> {{ .Content }}</p>
+        <div class="py-4">
+          <div class="Box Box--condensed">
+            <div class="Box-header">
+              <h3 class="Box-title">
+                本期讨论的主要文献
+              </h3>
+            </div>
+            <ul>
+              {{ range $ref := .Params.reference }}
+              <li class="Box-row">
+                {{ $ref }}
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <img class="avatar", width="100%" src="/images/episode-cover/{{ .Params.cover }}" alt="cover-art">
       </div>
     </div>
+    {{ end}}
+    </div>
+
+    <!-- Podcast Table-->
+    <div class="p-2">
+      <div class="Box">
+        {{ range where .Site.RegularPages "Section" "podcast" }}
+        <div class="Box-row d-flex flex-items-center">
+          <div class="flex-auto">
+            <div class="text-small text-gray-light">
+              <span class="mr-2">
+              {{ .Params.release_schedule}}
+              </span>
+              {{ range $d:=.Params.discipline}}
+              <span class="Label Label mr-2 Label--green"  > {{ $d }}</span>
+              {{ end }}
+            </div>
+            <h3 class="text-gray-dark"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}"> {{ .Title }}</a></h3>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+    </div>
+
   </div>
 </div>
 
