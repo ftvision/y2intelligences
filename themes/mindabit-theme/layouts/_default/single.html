@@ -3,22 +3,23 @@
 <!-- Header -->
 {{ partial "header" . }}
 
-<div class="d-flex flex-justify-center">
+<!-- Navigation -->
+<div class="col-10 col-sm-10 col-md-8 py-2 px-2 mx-auto">
+  <nav aria-label="Breadcrumb">
+    <ol>
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/{{ .Section }}">{{ .Section }}</a></li>
+      <li class="breadcrumb-item" aria-current="page"> {{ .Title }}</li>
+    </ol>
+  </nav>
+</div>
+
+<div class="d-flex flex-column flex-md-row flex-md-justify-center">
   <!-- Podcast SideBar -->
   {{ partial "sidebar/podcast-sidebar" . }}
 
   <!-- Main Content-->
-  <div class="col-6 px-4">
-    <!-- Navigation -->
-    <div class="pb-2">
-      <nav aria-label="Breadcrumb">
-        <ol>
-          <li class="breadcrumb-item"><a href="/">Home</a></li>
-          <li class="breadcrumb-item"><a href="/{{ .Section }}">{{ .Section }}</a></li>
-          <li class="breadcrumb-item" aria-current="page"> {{ .Title }}</li>
-        </ol>
-      </nav>
-    </div>
+  <div class="col-10 col-sm-10 col-md-6 col-lg-5 px-2 mx-auto mx-md-0">
     <!-- Title -->
     <div class="pagehead pb-2">
       <h1>{{ .Title }}</h1>
