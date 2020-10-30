@@ -3,7 +3,7 @@ title: "EP006 | 动物能学会抽象规则吗"
 date: 2020-03-15T22:44:02-04:00
 draft: false
 release_schedule: 2020/03/15
-discipline:
+disciplines:
   - "神经科学"
 reference:
   - "Fitch, W. T., & Hauser, M. D. (2004). Computational constraints on syntactic processing in a nonhuman primate. Science, 303(5656), 377-380."

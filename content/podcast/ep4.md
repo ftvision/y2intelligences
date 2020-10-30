@@ -3,7 +3,7 @@ title: "EP004 | 图灵测试的批评与讨论"
 date: 2020-02-15T22:35:16-04:00
 draft: false
 release_schedule: 2020/02/15
-discipline:
+disciplines:
   - "人工智能"
   - "计算机科学"
   - "哲学"

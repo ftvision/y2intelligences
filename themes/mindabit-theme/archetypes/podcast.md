@@ -2,7 +2,7 @@
 title: ""
 date: {{ .Date }}
 release_schedule: {{ .Date }}
-discipline:
+disciplines:
   - "discipline 1"
   - "discipline 2"
 reference:

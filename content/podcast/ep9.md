@@ -3,7 +3,7 @@ title: "EP009 | 别小瞧婴儿，TA们知道的多着呢！"
 date: 2020-04-15T22:49:48-04:00
 draft: false
 release_schedule: 2020/04/15
-discipline:
+disciplines:
   - "发展心理学"
 reference:
   - "Wang, J., & Feigenson, L. (2019). Is empiricism innate? Preference for nurture over nature in people’s beliefs about the origins of human knowledge. Open Mind, 3, 89-100."

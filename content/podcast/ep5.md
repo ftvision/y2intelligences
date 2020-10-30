@@ -3,7 +3,7 @@ title: "EP005 | 当动物学习时动物在学习什么"
 date: 2020-03-01T22:37:21-04:00
 draft: false
 release_schedule: 2020/03/01
-discipline:
+disciplines:
   - "神经科学"
 reference:
   - "Fitch, W. T., & Hauser, M. D. (2004). Computational constraints on syntactic processing in a nonhuman primate. Science, 303(5656), 377-380."

@@ -58,7 +58,7 @@
               </span>
             </div>
             <p class="text-gray-dark"><a href="{{ .Permalink | relURL }}" title="{{ .Title }}"> {{ .Title }}</a></p>
-            <p>{{ range $d:=.Params.discipline}}
+            <p>{{ range $d:=.Params.disciplines}}
               <span class="IssueLabel bg-blue text-white mr-1 text-sans-serif"> {{ $d }}</span>
               {{ end }}
             </p>

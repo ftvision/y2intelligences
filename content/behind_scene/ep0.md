@@ -2,7 +2,7 @@
 title: "EP0: 前言小叙"
 date: 2019-12-15T22:08:41-04:00
 release_schedule: 2019/12/15
-discipline:
+disciplines:
   - "认知科学"
 ---
 

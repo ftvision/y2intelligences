@@ -3,7 +3,7 @@ title: "EP003 | 图灵测试、模仿游戏与能思考的机器"
 date: 2020-02-01T22:30:54-04:00
 draft: false
 release_schedule: 2020/02/01
-discipline:
+disciplines:
   - "人工智能"
   - "计算机科学"
   - "哲学"

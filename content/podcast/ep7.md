@@ -3,7 +3,7 @@ title: "EP007 | 婴儿如何学习?"
 date: 2020-04-01T22:45:42-04:00
 draft: false
 release_schedule: 2020/04/01
-discipline:
+disciplines:
   - "心理学"
 reference:
   - "Marcus, G. F., Vijayan, S., Rao, S. B., & Vishton, P. M. (1999). Rule learning by seven-month-old infants. Science, 283(5398), 77-80."

@@ -1,0 +1,66 @@
+{{ partial "head" . }}
+
+<!-- Header -->
+{{ partial "header" . }}
+
+<div class="d-flex flex-justify-center">
+  <div class="col-10 col-sm-10 col-md-8">
+    <!-- Navigation -->
+    <div class="pb-2">
+      <nav aria-label="Breadcrumb">
+        <ol>
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item" aria-current="page"> {{ .Title }}</li>
+        </ol>
+      </nav>
+    </div>
+    <article>
+      <header>
+        <h1>{{.Title}}</h1>
+      </header>
+      <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+      {{.Content}}
+    </article>
+    <ul>
+
+      {{ $current_taxonomy := .Section }}
+
+      {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      {{ if eq $taxonomyname $current_taxonomy }}
+
+      {{ range $key, $value := $taxonomy }}
+
+      <details class="details-reset my-2">
+        <summary class="btn text-sans-serif">{{ $key }}
+          <span class="Counter mr-1 bg-red text-white"> {{ len $value }}</span>
+          <span class="dropdown-caret">
+        </summary>
+        <div class="mt-2">
+          <div>
+            {{ range $value.Pages }}
+            {{ if eq .Section "podcast"}}
+            <div class="TimelineItem">
+              <div class="TimelineItem-badge">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="TimelineItem-body">
+                <storng>{{ .Params.release_schedule}} </storng>
+                <a href="{{ .Permalink | relURL }}" title="{{ .Title }}"> {{ .Title }}</a>
+              </div>
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
+        </div>
+      </details>
+      {{ end }}
+
+      {{ end }}
+      {{ end }}
+
+    </ul>
+  </div>
+</div>
+
+<!-- Footer -->
+{{ partial "footer" . }}

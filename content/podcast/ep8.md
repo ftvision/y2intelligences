@@ -2,7 +2,7 @@
 title: "EP008 | 城里的蝙蝠：我太难了！"
 date: 2020-04-15T22:47:25-04:00
 release_schedule: 2020/04/15
-discipline:
+disciplines:
   - "神经科学"
   - "生态学"
 reference:

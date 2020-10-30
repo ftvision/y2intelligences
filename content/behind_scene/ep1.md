@@ -3,7 +3,7 @@ title: "EP 1: 认知科学，理想与现实(上)"
 date: 2020-01-01T22:17:35-04:00
 draft: false
 release_schedule: 2020/01/01
-discipline:
+disciplines:
   - "认知科学"
 ---
 

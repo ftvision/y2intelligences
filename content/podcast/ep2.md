@@ -3,7 +3,7 @@ title: "EP002 | 认知科学，理想与现实(下)"
 date: 2020-01-15T22:21:24-04:00
 draft: false
 release_schedule: 2020/01/15
-discipline:
+disciplines:
   - "认知科学"
 reference:
   - "Núñez, R., Allen, M., Gao, R., Rigoli, C. M., Relaford-Doyle, J., & Semenuks, A. (2019). What happened to cognitive science?. Nature human behaviour, 3(8), 782-791."

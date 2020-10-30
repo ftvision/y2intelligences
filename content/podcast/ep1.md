@@ -3,8 +3,8 @@ title: "EP001 | 认知科学，理想与现实(上)"
 date: 2020-01-01T22:17:35-04:00
 draft: false
 release_schedule: 2020/01/01
-discipline:
-  - "认知科学"
+disciplines:
+- "认知科学"
 reference:
   - "Núñez, R., Allen, M., Gao, R., Rigoli, C. M., Relaford-Doyle, J., & Semenuks, A. (2019). What happened to cognitive science?. Nature human behaviour, 3(8), 782-791."
   - "Frith, U. (2019). Fast Lane to Slow Science. Trends in cognitive sciences."
