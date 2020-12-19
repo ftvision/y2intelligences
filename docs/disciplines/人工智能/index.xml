@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>人工智能 on Mind a bit | 基智一点</title>
-    <link>http://y2intelligences.com/disciplines/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+    <link>http://mindabit.chat/disciplines/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
     <description>Recent content in 人工智能 on Mind a bit | 基智一点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Jul 2020 18:36:27 -0400</lastBuildDate><atom:link href="http://y2intelligences.com/disciplines/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jul 2020 18:36:27 -0400</lastBuildDate><atom:link href="http://mindabit.chat/disciplines/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EP014 | 古早味、有常识的人工智能</title>
-      <link>http://y2intelligences.com/podcast/ep14/</link>
+      <link>http://mindabit.chat/podcast/ep14/</link>
       <pubDate>Tue, 21 Jul 2020 18:36:27 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep14/</guid>
+      <guid>http://mindabit.chat/podcast/ep14/</guid>
       <description>上个世纪50年代，计算机刚刚发展之际， Alan Turing, Alan Newell, Herbert Simon, John McCarthy和Marvin Minsky等先驱, 就已经开始思考如何设计具备人类智能的机器。他们受到了数理逻辑的深远影响，在设计智能系统的过程中大量使用符号逻辑，人为寻找和设计智能系统的决策规则，史称符号派。
 虽然这类设计的人工智能系统与当下火热的神经网络系统有很大的差别，也很少运用脑科学和神经科学的研究洞见，但是因为嵌入了大量的人类智慧，往往更具备常识，能解决一些日常知识推理的问题。即便是现在，符号派的智能系统设计也仍然在某些领域和一些大型智能系统的内部占有很重要的地位。
 今天，我们一起阅读McCarthy在1960年写的Program with Common Sense，讨论古早味的符号派人工智能以及人工智能如何获得常识。</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>EP012 | 心理活动=神经活动？</title>
-      <link>http://y2intelligences.com/podcast/ep12/</link>
+      <link>http://mindabit.chat/podcast/ep12/</link>
       <pubDate>Thu, 18 Jun 2020 23:18:59 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep12/</guid>
+      <guid>http://mindabit.chat/podcast/ep12/</guid>
       <description>近年来，随着科学技术的发展，越来越多的神经科学研究开始探索人类和其他动物的认知功能。心理学领域也出现了越来越多的神经成像研究，认知神经科学的兴起更是将心理学和神经科学结合在了一起。媒体的报道也常常聚焦于神经科学领域的新进展。比如，多巴胺的分泌常被说成是快乐源泉，神经放电规律试图否定自由意志。不少心理学爱好者开始疑惑：是不是心理学会被神经科学取代？
 试图用神经科学取代心理学，来解释所有的人类行为和认知现象，是一种还原论的取向。早在上世纪70年代，科学技术还不如现在发达的时候，普特南就已经提到了科学中的一种还原论取向，认为
  心理学和社会学这类高阶学科的原理和规律都可以还原到生物学和化学这类低阶学科的原理上，并且最终可以还原到基本粒子物理的法则上。
@@ -33,10 +33,10 @@
     
     <item>
       <title>EP011 | 你好，聊天机器人！</title>
-      <link>http://y2intelligences.com/podcast/ep11/</link>
+      <link>http://mindabit.chat/podcast/ep11/</link>
       <pubDate>Mon, 18 May 2020 23:15:00 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep11/</guid>
+      <guid>http://mindabit.chat/podcast/ep11/</guid>
       <description>“嘿Siri/Google/Alexa，帮我定个时吧！”
 “多长时间？”
 “15分钟。”
@@ -46,29 +46,29 @@
     
     <item>
       <title>EP010 | 无处不在的（直觉）物理</title>
-      <link>http://y2intelligences.com/podcast/ep10/</link>
+      <link>http://mindabit.chat/podcast/ep10/</link>
       <pubDate>Mon, 18 May 2020 23:13:54 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep10/</guid>
+      <guid>http://mindabit.chat/podcast/ep10/</guid>
       <description>在生活中，我们对很多东西都有下意识的判断。铅笔从桌子上滚落抬手去哪儿接，队友踢出的足球会朝哪儿行进，在没有交通指示灯的路口怎么过马路，小朋友抬手放的新积木会让整个积木大厦坍塌……在这些日常生活的场景中，我们时时刻刻都在预测接下来会是怎么样，而这些体验似乎都需要物理知识进行计算。可是，我们也并没有不断停下来，运用物理公式计算每一个物理现象，我们的判断和行为都发生得非常快。这种无处不在的对物理现象的直觉是什么呢？我们的直觉和实际的物理计算相符吗？拥有直觉物理与在学校学习的物理有什么联系呢？大脑是如何在短时间内快速计算出符合物理现象的判断呢？</description>
     </item>
     
     <item>
       <title>EP004 | 图灵测试的批评与讨论</title>
-      <link>http://y2intelligences.com/podcast/ep4/</link>
+      <link>http://mindabit.chat/podcast/ep4/</link>
       <pubDate>Sat, 15 Feb 2020 22:35:16 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep4/</guid>
+      <guid>http://mindabit.chat/podcast/ep4/</guid>
       <description>这一期节目我们继续讨论关于图灵测试的各种批评和讨论。
 延伸 关于对图灵测试的各种批评和讨论，我们推荐大家阅读上面所提到的文献。同时，我们在讨论中提到了中文屋问题，我们将在将来的节目中对这个问题进行讨论。</description>
     </item>
     
     <item>
       <title>EP003 | 图灵测试、模仿游戏与能思考的机器</title>
-      <link>http://y2intelligences.com/podcast/ep3/</link>
+      <link>http://mindabit.chat/podcast/ep3/</link>
       <pubDate>Sat, 01 Feb 2020 22:30:54 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep3/</guid>
+      <guid>http://mindabit.chat/podcast/ep3/</guid>
       <description>这一期节目我们深入讨论图灵测试和围绕图灵测试相关的各种观点和思考。
 延伸 在介绍和解读图灵测试的众多百科词条中，我们推荐《The Stanford Encyclopedia of Philosophy》上的《The Turing Test》。对图灵原著感兴趣的朋友，我们也推荐Stevan Harnad对原文的注解。</description>
     </item>

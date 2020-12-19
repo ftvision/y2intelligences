@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>计算机科学 on Mind a bit | 基智一点</title>
-    <link>http://y2intelligences.com/disciplines/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link>
+    <link>http://mindabit.chat/disciplines/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link>
     <description>Recent content in 计算机科学 on Mind a bit | 基智一点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Oct 2020 23:36:30 -0400</lastBuildDate><atom:link href="http://y2intelligences.com/disciplines/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Oct 2020 23:36:30 -0400</lastBuildDate><atom:link href="http://mindabit.chat/disciplines/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EP018｜量子计算有突破吗？</title>
-      <link>http://y2intelligences.com/podcast/ep18/</link>
+      <link>http://mindabit.chat/podcast/ep18/</link>
       <pubDate>Tue, 20 Oct 2020 23:36:30 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep18/</guid>
+      <guid>http://mindabit.chat/podcast/ep18/</guid>
       <description>在量子概念大火的今天，我们来科学地聊聊量子计算及量子计算对于人工智能的意义。在谷歌等公司宣布实现了量子霸权的新闻中，你是否也会好奇到底什么是量子计算和量子霸权呢？量子计算机与我们日常用的计算机有什么不同？量子计算能够让人工智能获得更好的发展吗？</description>
     </item>
     
     <item>
       <title>EP004 | 图灵测试的批评与讨论</title>
-      <link>http://y2intelligences.com/podcast/ep4/</link>
+      <link>http://mindabit.chat/podcast/ep4/</link>
       <pubDate>Sat, 15 Feb 2020 22:35:16 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep4/</guid>
+      <guid>http://mindabit.chat/podcast/ep4/</guid>
       <description>这一期节目我们继续讨论关于图灵测试的各种批评和讨论。
 延伸 关于对图灵测试的各种批评和讨论，我们推荐大家阅读上面所提到的文献。同时，我们在讨论中提到了中文屋问题，我们将在将来的节目中对这个问题进行讨论。</description>
     </item>
     
     <item>
       <title>EP003 | 图灵测试、模仿游戏与能思考的机器</title>
-      <link>http://y2intelligences.com/podcast/ep3/</link>
+      <link>http://mindabit.chat/podcast/ep3/</link>
       <pubDate>Sat, 01 Feb 2020 22:30:54 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/podcast/ep3/</guid>
+      <guid>http://mindabit.chat/podcast/ep3/</guid>
       <description>这一期节目我们深入讨论图灵测试和围绕图灵测试相关的各种观点和思考。
 延伸 在介绍和解读图灵测试的众多百科词条中，我们推荐《The Stanford Encyclopedia of Philosophy》上的《The Turing Test》。对图灵原著感兴趣的朋友，我们也推荐Stevan Harnad对原文的注解。</description>
     </item>

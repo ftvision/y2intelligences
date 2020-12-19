@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Behind_scenes on Mind a bit | 基智一点</title>
-    <link>http://y2intelligences.com/behind_scene/</link>
+    <link>http://mindabit.chat/behind_scene/</link>
     <description>Recent content in Behind_scenes on Mind a bit | 基智一点</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jan 2020 22:17:35 -0400</lastBuildDate><atom:link href="http://y2intelligences.com/behind_scene/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Jan 2020 22:17:35 -0400</lastBuildDate><atom:link href="http://mindabit.chat/behind_scene/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EP 1: 认知科学，理想与现实(上)</title>
-      <link>http://y2intelligences.com/behind_scene/ep1/</link>
+      <link>http://mindabit.chat/behind_scene/ep1/</link>
       <pubDate>Wed, 01 Jan 2020 22:17:35 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/behind_scene/ep1/</guid>
+      <guid>http://mindabit.chat/behind_scene/ep1/</guid>
       <description>缘起 这一期的主题有三个源头。
 第一是《What happened to cognitive science?》这篇文章。第一次听到《What happened to cognitive science?》这篇文章是在一篇题为《认知科学死了吗？》的文章。这篇报道的标题有点怂人听闻，但是内容还是比较中立的，而且作者还结合了自己所在的研究机构的情况对原文献展开了一些讨论。但是，读那篇报道毕竟不如好好地看看原始文献到底讲了一些什么，而这篇文章正好给我们这档播客节目提供了提纲挈领的主题——什么是认知科学，我们便决定在第一期节目中以此文为蓝本讨论一下认知科学的理想与现状。
 第二个源头是我在知乎上遇到很多人问要怎么入门认知科学、心理学、神经科学。还有一些将来想进入这些领域的年轻朋友在问要做什么样的准备，学习什么样的基础课。这样的问题其实是和每个人的知识背景和兴趣相关的，所以并不存在固定的答案。我在回答这些问题的时候也经常感到为难，因为我个人的经历并不见得适用于其他人，所以我的推荐会有我自己的偏见。但是，如果能够借着研究文献，跟多人一起讨论择业的选择，并且将这样的讨论带给听众，我觉得会比我一个人写文章更有帮助，因为听众可以在我们的讨论中找到自己觉得合适的，再逐渐去寻找更多的参考资料。
@@ -26,10 +26,10 @@
     
     <item>
       <title>EP0: 前言小叙</title>
-      <link>http://y2intelligences.com/behind_scene/ep0/</link>
+      <link>http://mindabit.chat/behind_scene/ep0/</link>
       <pubDate>Sun, 15 Dec 2019 22:08:41 -0400</pubDate>
       
-      <guid>http://y2intelligences.com/behind_scene/ep0/</guid>
+      <guid>http://mindabit.chat/behind_scene/ep0/</guid>
       <description>缘起 在知乎写了一段时间关于认知心理学的科普文章之后，我发现自己很难再继续写所谓的科普文章，因为不管是我读到的还是我自己的写的，都与我想读的科普文章之间存在很大的差距。这种差距来自两方面，一方面是一些科普文章呈现的知识点很独立，缺乏知识上的大图景以及叙事上的背景关联，甚至有时候存在搬运教科书的嫌疑；另一方面是一些科普文章以回答问题的形式，或者以某些研究结果为起点进行想象，或者将问题重新诠释并偷换为某些研究所涉及的课题，进而提供答案。这两种情况本身并没有什么特别不对的，因为它们都确实是普及了一些不太为人知的心理学和认知科学知识，只是这两种都不是我喜欢的形式罢了。但是，与此同时，我又困于找不到自己喜欢的形式和内容进行科普，所以便停止了自己对科普的尝试。
 但是有三件事情让我决定再试一次。
 第一件事是我旁听了一节《认知科学基础》的研究生课程1。这是一门以讨论为主的课程，教授和领导这门课程的教师是亲身参与过第二次神经网络浪潮，并在其中担任领军人物的Paul Smolensky. 这门课程包罗万象又井井有条，整个学期的课程阅读既讨论了认知科学中重大论题的各种研究途径和阵营，又讨论了认知科学发展历史中的起起伏伏；既讨论了认知科学的理论分析和建构，也讨论了实证研究的数据和论点。这门课程极其精彩，而我也一直希望以某种形式将其中的精髓与更多的人分享和讨论。

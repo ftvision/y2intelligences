@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Mind a bit | 基智一点</title>
-    <link>http://y2intelligences.com/categories/</link>
+    <link>http://mindabit.chat/categories/</link>
     <description>Recent content in Categories on Mind a bit | 基智一点</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="http://y2intelligences.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language><atom:link href="http://mindabit.chat/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
